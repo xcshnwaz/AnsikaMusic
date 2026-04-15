@@ -14,7 +14,7 @@ if config.MONGO_DB_URI is None:
         "𝐍o 𝐌ONGO 𝐃B 𝐔RL 𝐅ound.. 𝐘our 𝐁ot 𝐖ill 𝐖ork 𝐎n 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐌𝐔𝐒𝐈𝐂 𝐃atabase"
     )
     temp_client = Client(
-        "SHUKLAMUSIC",
+        "AnsikaMusic",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
@@ -30,5 +30,5 @@ if config.MONGO_DB_URI is None:
 else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.SHUKLAMUSIC
-    pymongodb = _mongo_sync_.SHUKLAMUSIC
+    mongodb = _mongo_async_.AnsikaMusic
+    pymongodb = _mongo_sync_.AnsikaMusic
