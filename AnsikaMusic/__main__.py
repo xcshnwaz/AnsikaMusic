@@ -35,18 +35,18 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SHUKLAMUSIC.plugins" + all_module)
-    LOGGER("SHUKLAMUSIC.plugins").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ...")
+        importlib.import_module("AnsikaMusic.plugins" + all_module)
+    LOGGER("AnsikaMusic.plugins").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ...")
     await userbot.start()
     await SHUKLA.start()
     await SHUKLA.decorators()
-    LOGGER("SHUKLAMUSIC").info(
+    LOGGER("AnsikaMusic").info(
         "ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SHUKLAMUSIC").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ")
+    LOGGER("AnsikaMusic").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ")
     
 
 if __name__ == "__main__":
