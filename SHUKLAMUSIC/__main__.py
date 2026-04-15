@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝗔𝗕𝗘 𝗟𝗢𝗗𝗘 𝗦𝗧𝗥𝗜𝗡𝗚 𝗧𝗘𝗥𝗔 𝗕𝗔𝗣 𝗗𝗔𝗟𝗘 𝗚𝗔 𝗞𝗬𝗔 😑")
+        LOGGER(__name__).error("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ")
         
     await sudo()
     try:
@@ -36,17 +36,17 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("SHUKLAMUSIC.plugins" + all_module)
-    LOGGER("SHUKLAMUSIC.plugins").info("𝗔𝗕𝗘 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘 𝗕𝗔𝗖𝗛𝗘 𝗥𝗘𝗣𝗢 𝗘𝗗𝗜𝗧 𝗞𝗔𝗥 𝗟𝗜𝗔  👿 ...")
+    LOGGER("SHUKLAMUSIC.plugins").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ...")
     await userbot.start()
     await SHUKLA.start()
     await SHUKLA.decorators()
     LOGGER("SHUKLAMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝐌𝐀𝐃𝐄 𝐁𝐘 𝐓𝐄𝐀𝐌 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑♨️\n╚═════ஜ۩۞۩ஜ════╝"
+        "ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SHUKLAMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝐌𝐀𝐃𝐄 𝐁𝐘 𝐓𝐄𝐀𝐌 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SHUKLAMUSIC").info("ᴋʏ ᴄʜᴇʀᴀ ʙᴏsᴅɪ")
     
 
 if __name__ == "__main__":

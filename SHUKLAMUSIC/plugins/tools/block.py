@@ -15,13 +15,13 @@ app.on_message(
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://litter.catbox.moe/ad87gha5nzsputs1.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐃𝐨𝐧𝐚𝐭𝐞 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎁 𝐃ᴏɴᴀᴛᴇ 🎁", url=f"https://t.me/itszShukla")
+                        "𝐃ᴏɴᴀᴛᴇ", url=f"https://t.me/cylxu")
                 ]
             ]
         ),
@@ -32,13 +32,13 @@ async def help(client: Client, message: Message):
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://litter.catbox.moe/ad87gha5nzsputs1.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐃𝐨𝐧𝐚𝐭𝐞 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎁 𝐃ᴏɴᴀᴛᴇ 🎁", url=f"https://t.me/itszShukla")
+                        "𝐃ᴏɴᴀᴛᴇ", url=f"https://t.me/cylxu")
                 ]
             ]
         ),
@@ -49,13 +49,13 @@ async def help(client: Client, message: Message):
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://litter.catbox.moe/ad87gha5nzsputs1.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐃𝐨𝐧𝐚𝐭𝐞 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎁 𝐃ᴏɴᴀᴛᴇ 🎁", url=f"https://t.me/itszShukla")
+                        "𝐃ᴏɴᴀᴛᴇ", url=f"https://t.me/cylxu")
                 ]
             ]
         ),
